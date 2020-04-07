@@ -1,0 +1,14 @@
+﻿<Window x:Class="MVCQuete2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVCQuete2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="DarkSlateBlue">
+    <Grid>
+        <Button Name ="BigButton" Content="Show HTML" Click="BigButton_Click" HorizontalAlignment="Left" Height="102" Margin="73,148,0,0" VerticalAlignment="Top" Width="151"/>
+        <TextBlock Name ="ShowHTMLBlock" HorizontalAlignment="Left" Height="365" Margin="308,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="462" Background="LightSlateGray" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True"/>
+        
+    </Grid>
+</Window>
